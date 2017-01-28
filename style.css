@@ -1,0 +1,107 @@
+
+* {
+  box-sizing: border-box;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+body {
+  background: #42f1f4;
+}
+.text-center{
+  text-align: center;
+}
+.heading {
+  margin: 30px;
+}
+.heading h1{
+  font-size: 4em;
+  font-weight: 500;
+  color: #f2f29d;
+  margin: 0;
+}
+.heading p{
+  text-align: center;
+  margin: 0;
+  font-weight: 100;
+}
+.text-info{
+   font-size: 1.5em;
+}
+.param {
+  width: 306px;
+  margin: 20px auto;
+}
+.param input{
+  width: 40px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background: #f2f29d;
+  font-size: 1.2em;
+  padding: 8px;
+}
+.param button{
+  background: #f2f29d;
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+}
+.break-select{
+  float: left;
+}
+.session-select{
+  float: left;
+  margin-left: 20px;
+}
+.clock{
+  width: 210px;
+  margin: 30px auto;
+  cursor: pointer;
+}
+.clock h2{
+  margin: 0;
+  padding-top: 70px;
+  text-align: center;
+  color: #f2f29d;
+}
+.clock h3{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #f2f29d;  
+}
+.footer{
+  margin-top: 100px;
+}
+.footer h3{
+  font-weight: 300;
+}
+.fadeDown {
+  animation : fadeDown 0.5s ease-out forwards; 
+}
+@keyframes fadeDown {
+  100% { 
+        transform: translateY(+50px); 
+    }
+}
+.showUp {
+  animation : showUp 0.5s ease-out forwards;
+}
+@keyframes showUp {
+  0% {
+    transform: translateY(+50px);
+    opacity: 0;
+  }
+  100% { 
+        transform: translateY(0px); 
+        opacity: 1;
+    }
+}
+#canvas{
+  position: absolute;
+}
